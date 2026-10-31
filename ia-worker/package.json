@@ -1,0 +1,11 @@
+{
+  "name": "agrosense-ia",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "probar": "node test/prueba.mjs"
+  },
+  "devDependencies": { "wrangler": "^4" }
+}

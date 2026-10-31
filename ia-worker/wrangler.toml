@@ -1,0 +1,10 @@
+name = "agrosense-ia"
+main = "src/index.js"
+compatibility_date = "2025-01-01"
+
+[vars]
+# Tu proyecto de Firebase: el servidor solo atiende a usuarios que iniciaron sesión en TU app
+FIREBASE_PROJECT_ID = "agrosense-31c62"
+REQUIERE_LOGIN = "true"
+# Preguntas permitidas por usuario por minuto (el límite real de cada proveedor es aparte)
+LIMITE_POR_MINUTO = "12"
